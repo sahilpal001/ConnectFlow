@@ -46,7 +46,7 @@ http://localhost:8501
 
 ## 🧠 Data Flow Diagram
 ---
-mermaid
+```mermaid
 flowchart TD
     A[User Interface - Streamlit GUI] --> B[User Input Handler]
     B --> C[Graph Generator - NetworkX]
@@ -54,6 +54,7 @@ flowchart TD
     D --> E[Packet Path Result]
     E --> F[Graph Animator - Matplotlib]
     F --> G[Animated Graph Output in UI]
+```
 
 ## 📚 Learning Outcomes
 - ✅ Hands-on with graph theory and shortest-path algorithms
@@ -67,7 +68,7 @@ flowchart TD
 ---
 ## 🏗 System Architecture
 
-mermaid
+```mermaid
 flowchart TB
     UI["Streamlit Web UI"]
     GraphGen["Graph Generator (NetworkX)"]
@@ -81,7 +82,7 @@ flowchart TB
     Dijkstra --> Animator
     Animator --> Renderer
     Renderer --> UI
-
+```
 
 ## 🧾 Dependencies
 - streamlit
