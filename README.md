@@ -46,9 +46,9 @@ streamlit run network_routing_app.py
 bash
 http://localhost:8501
 
+---
 
 ## 🧠 Data Flow Diagram
----
 ```mermaid
 flowchart TD
     A[User Interface - Streamlit GUI] --> B[User Input Handler]
@@ -63,6 +63,7 @@ flowchart TD
 
 <img width="1920" height="7202" alt="screencapture-localhost-8501-2025-08-03-17_03_08" src="https://github.com/user-attachments/assets/32d48203-0a4a-4dca-b843-48527884c816" />
 
+---
 
 ## 📚 Learning Outcomes
 - ✅ Hands-on with graph theory and shortest-path algorithms
