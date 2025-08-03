@@ -1,6 +1,6 @@
-# 🌐 PathFinder: Animated Network Routing Simulator
+# 🌐 ConnectFlow: Animated Network Routing Simulator
 
-PathFinder is a Python-powered, interactive network simulator that visualizes how data packets are routed across a network of routers using Dijkstra’s shortest path algorithm. Built using *Streamlit, **NetworkX, and **Matplotlib*, it offers an animated and intuitive understanding of how real-world routing works.
+ConnectFlow is a Python-powered, interactive network simulator that visualizes how data packets are routed across a network of routers using Dijkstra’s shortest path algorithm. Built using Streamlit, **NetworkX, and **Matplotlib, it offers an animated and intuitive understanding of how real-world routing works.
 
 ---
 
@@ -17,19 +17,22 @@ PathFinder is a Python-powered, interactive network simulator that visualizes ho
 ---
 
 ## 📂 Project Structure
-
-PathFinder/
-- network_routing_app.py # 🔧 Main Streamlit application logic
-- requirements.txt # 📦 Python dependencies
-- README.md # 📘 Project documentation
+```
+ConnectFlow/
+├── network_routing_app.py      # 🔧 Main Streamlit application logic
+├── requirements.txt            # 📦 Python dependencies
+├── README.md                   # 📘 Project documentation
+├── venv/                       # 🧪 Python virtual environment (should NOT be pushed to GitHub)
+└── assets/                     # 🖼 Screenshots, diagrams, or other media files
+```
 
   
 ---
 
 ## 🚀 How to Run
 
-1. *Install Python 3.11+*
-2. *Install dependencies:*
+1. Install Python 3.11+
+2. Install dependencies:
 
 bash
 pip install -r requirements.txt
@@ -55,6 +58,11 @@ flowchart TD
     E --> F[Graph Animator - Matplotlib]
     F --> G[Animated Graph Output in UI]
 ```
+
+## 📸screenshot
+
+<img width="1920" height="7202" alt="screencapture-localhost-8501-2025-08-03-17_03_08" src="https://github.com/user-attachments/assets/32d48203-0a4a-4dca-b843-48527884c816" />
+
 
 ## 📚 Learning Outcomes
 - ✅ Hands-on with graph theory and shortest-path algorithms
@@ -91,4 +99,4 @@ flowchart TB
 
 ## 👨‍💻 Made By
 - Sahil Pal
-- Manan kathuria [https://github.com/Manan-78581](https://github.com/Manan-78581)
+- Manan kathuria https://github.com/Manan-78581
