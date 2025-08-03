@@ -89,5 +89,6 @@ flowchart TB
 - networkx
 - matplotlib
 
-## 👨‍💻 Author
-Project by: Sahil Pal
+## 👨‍💻 Made By
+Sahil Pal
+Manan kathuria [httpsgithub.com/Manan-78581](https://github.com/Manan-78581)
