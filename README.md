@@ -90,5 +90,5 @@ flowchart TB
 - matplotlib
 
 ## 👨‍💻 Made By
-Sahil Pal
-Manan kathuria [httpsgithub.com/Manan-78581](https://github.com/Manan-78581)
+- Sahil Pal
+- Manan kathuria [https://github.com/Manan-78581](https://github.com/Manan-78581)
